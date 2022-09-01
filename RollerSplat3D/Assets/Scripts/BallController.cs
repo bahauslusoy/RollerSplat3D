@@ -39,7 +39,7 @@ public class BallController : MonoBehaviour
         switch (_currentState)
         {
             case State.preGame:
-
+        
                 if (Input.GetMouseButtonDown(0))
                 {
                     startPanel.SetActive(false);
